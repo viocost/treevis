@@ -25,7 +25,7 @@ A tree node must have `value`, `left`, `right` as its properties.
 
 Optionally you may use a `color` property to assign a color to a node. Should be useful when working with Red-Black trees, and in general when it is needed to mark certain nodes with colors. Color must be an integer in range 0 - 255. For convenience there are pre-defined colors in the library.
 
-```
+```py
 class Node:
     def __init__(self, value, left, right, color=None):
         self.value = value
@@ -36,7 +36,7 @@ class Node:
 
 
 Call draw function on the root node.
-```
+```py
 from treevis import draw, Colors
 from node import Node # your node implementation
 
